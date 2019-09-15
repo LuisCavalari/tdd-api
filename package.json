@@ -1,0 +1,9 @@
+{
+  "name": "tdd-api",
+  "version": "1.0.0",
+  "description": "A api with TDD",
+  "main": "index.js",
+  "repository": "https://github.com/LuisCavalari/tdd-api",
+  "author": "Luis Cavalari",
+  "license": "MIT"
+}
