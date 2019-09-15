@@ -2,8 +2,20 @@
   "name": "tdd-api",
   "version": "1.0.0",
   "description": "A api with TDD",
-  "main": "index.js",
+  "main": "src/server.js",
   "repository": "https://github.com/LuisCavalari/tdd-api",
   "author": "Luis Cavalari",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.12.1",
+    "sequelize": "^5.18.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "sequelize-cli": "^5.5.1"
+  }
 }
